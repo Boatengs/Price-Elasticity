@@ -2,7 +2,7 @@
 
 A Streamlit dashboard built for my capstone in the MPS in Applied Machine Intelligence at the Roux Institute, Northeastern University. It looks at how a set of brands price their products, how deep and how often they promote, and how unit sales respond to price.
 
-This was a team project (Capstone Team C). Brands appear as A through E in the app.
+This was a team project (Capstone Team C). I built the machine learning models in the dashboard. Brands appear as A through E in the app.
 
 ## What the dashboard does
 
