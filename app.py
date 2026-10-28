@@ -13,21 +13,7 @@ import numpy as np
 
 st.set_page_config(layout="wide")
 
-# Load data
-# @st.cache_data
-# def load_data():
-#     return pd.read_csv("cleaned_promotional_data.csv")
-
-# df = load_data()
-@st.cache_data
-def load_data():
-    # Replace YOUR_FILE_ID with the actual ID from Google Drive
-    file_id = "1znwRKZIg0gcIVUuWg3OdLmNpfdn1nVE_"
-    url = f"https://drive.google.com/uc?export=download&id={file_id}"
-    return pd.read_csv(url)
-
-df = load_data()
-
+# Load data from a user upload (the dataset is not stored in this repository)
 uploaded_file = st.file_uploader("Upload the promotional dataset (CSV)", type=["csv"])
 
 if uploaded_file is not None:
